@@ -35,7 +35,7 @@
             <uses-permission android:name="android.permission.GET_TASKS"/>
             <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
         </config-file>
-        <edit-config file="app/src/main/AndroidManifest.xml" target="/manifest/application" mode="merge" />
+        <!-- <edit-config file="app/src/main/AndroidManifest.xml" target="/manifest/application" mode="merge" /> -->
         
         
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
